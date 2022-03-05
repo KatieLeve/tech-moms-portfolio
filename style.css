@@ -1,16 +1,14 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
+    font-family:'Sacramento', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
 .header-wrapper {
-    height:140px;
+    height:530px;
     display: flex;
     flex-direction: column;
 }
 
 .Links {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
     border: solid;
     height:50px;
     background-color: #E2D8B4;
@@ -23,22 +21,29 @@ body {
 }
 .center-column {
     display: flex;
-    background-image: url('assets/british-library-AxT4iYcoI2M-unsplash.jpg');
+    background-image: url(assets/british-library-AxT4iYcoI2M-unsplash\ cropped.jpg);
     background-size: contain;
     height: 500px;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     justify-content: center;
     
 }
 .header-styles {
-padding-bottom: 1000px;
-margin-bottom: 1000px;
+display: flex;
+padding-bottom: 500px;
+margin-bottom: 500px;
+flex-direction: column;
 }
 .title {   
     font-size: 100px;
     font-family: 'sacramento', sans-serif;
+    padding-top: 100px;
+    margin:0px;
 }
 
 .main-section {
-    display: flex;
+        display: flex;
+}
+h2 {
+    justify-content: center;
 }
