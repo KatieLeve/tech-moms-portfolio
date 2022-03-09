@@ -1,49 +1,65 @@
 body {
-    font-family:'Sacramento', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-.header-wrapper {
-    height:530px;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
-.Links {
-    border: solid;
-    height:50px;
-    background-color: #E2D8B4;
-    color: #65897C;
+.header-container {
+font-family: 'Helvetica Neue', sans-serif;
+background-color: #ebe8bd;
+color: #65897C;
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
+padding: 10px;
+position: sticky;
+position: -webkit-sticky;
 }
 
-.link-wrapper {
+.Links{
     display: flex;
     justify-content: space-around;
-}
-.center-column {
-    display: flex;
-    background-image: url(assets/british-library-AxT4iYcoI2M-unsplash\ cropped.jpg);
-    background-size: contain;
-    height: 500px;
-    background-repeat: no-repeat;
-    justify-content: center;
+    font-size:30px;
+    padding-top: 60px;
+    margin: 0 20px;
+    width:700px;
     
 }
-.header-styles {
-display: flex;
-padding-bottom: 500px;
-margin-bottom: 500px;
-flex-direction: column;
-}
-.title {   
-    font-size: 100px;
-    font-family: 'sacramento', sans-serif;
-    padding-top: 100px;
-    margin:0px;
+.nav-link {
+    text-decoration:none;
+    color:#65897C;    
 }
 
 .main-section {
-        display: flex;
+    background-image: url(assets/british-library-AxT4iYcoI2M-unsplash\ cropped.jpg);
+    height: 500px;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    padding:100px;
+    flex-direction:column;
+}
+
+.top-heading {
+    color:#65897C;
+    font-family: 'Cedarville Cursive', cursive;
+display:flex;
+justify-content: center;
+padding: 20px;
+height:12em;
+
+}
+h1 {
+    font-size: 7em;
+    font-style: oblique;
+    text-shadow:5px 5px 10px black;
+text-align: center;    
+}
+.bottom-heading {
+    width: 450px;
+    padding:10px 200px;
+    margin: auto;
+
 }
 h2 {
-    justify-content: center;
-}
+   text-align: center;
+    font-size: 1.5em;
+    }
