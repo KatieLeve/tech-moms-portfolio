@@ -2,52 +2,57 @@ const adventureData = [
     {
         id: 1,
         title: 'Madrid',
-        description: 'Enjoy kayaking on a smooth reservoir. No motorized boats are allowed here. Great for beginners.',
+        description: 'The one where we found our flat',
         image: 'assets/Madrid-1.jpg',
-        link: 'components/destinations/destinations.html'
+        link: 'components/destinations/Madrid/Madrid.html'
     },
     {
         id: 2,
         title: 'Oviedo',
-        description: 'Want the ultimate adventure? Kayak through caves in this expert guided tour.',
+        description: 'The one where things got lost in translation',
         image: 'assets/Oviedo-2.jpg',
+        link: 'components/destinations/Oviedo/Oviedo.html'
+
     },
     {
         id: 3,
         title: 'Sevilla',
-        description: 'Enjoy a beautiful sunset from a kayak. With dinner provided, it doesn\'t get much better than this. All levels welcome.',
+        description: 'The one where we discovered the blue dot on the map',
         image: 'assets/Sevilla-3.jpg',
+        link: 'components/destinations/Sevilla/Sevilla.html'
+
 
     },
     {
         id: 4,
         title: 'Tarifa & Tangier',
-        description: 'Take a scenic float surrounded by mountains',
+        description: 'The one where we learned the meaning of barter, then hop on camel',
         image: 'assets/Tarifa & Tangier-4.jpg',
     },
     {
         id: 5,
         title: 'Granada',
-        description: 'Feeling adventurous? Join us on a three day kayak trip',
+        description: 'The one where the Sultan got kicked out of Spain',
         image: 'assets/Granada-5.jpg',
     },
     {
         id: 6,
         title: 'Barcelona',
-        description: 'Includes flight to a tropical location and lodging for 3 days and 2 nights of beach kayaking.',
+        description: 'Antonio Guadi. Need I say more',
         image: 'assets/Barcelona-6.jpg',
     },
     {
         id: 7,
         title: 'Venice',
-        description: 'Bring the whole family along for this easy and relaxing river kayak day trip. Includes trip for a family of 4.',
+        description: 'Hello Pasta!',
         image: 'assets/Venice-7.jpg',
     },
     {
         id: 8,
         title: 'Milan',
-        description: 'Take on the highest level rapids on this extreme adventure. Test required to participate.',
+        description: 'Where we swam through the rain',
         image: 'assets/Milan-8.jpg',
+        link: 'components/destinations/milan/milan.html',
     },
 ];
 

@@ -1,0 +1,18 @@
+.days {
+    display: flex;
+    flex-wrap: wrap;
+font-size: 20px;
+margin: 20px;
+padding: 20px;
+border: solid;
+border-radius: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: #65897C;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.5em;
+}
