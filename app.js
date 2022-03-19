@@ -3,14 +3,14 @@ const adventureData = [
         id: 1,
         title: 'Madrid',
         description: 'The one where we found our flat',
-        image: 'assets/Madrid-1.jpg',
+        image: 'assets/Madrid-1.JPG',
         link: 'components/destinations/Madrid/Madrid.html'
     },
     {
         id: 2,
         title: 'Oviedo',
         description: 'The one where things got lost in translation',
-        image: 'assets/Oviedo-2.jpg',
+        image: 'assets/Oviedo-2.JPG',
         link: 'components/destinations/Oviedo/Oviedo.html'
 
     },
@@ -18,7 +18,7 @@ const adventureData = [
         id: 3,
         title: 'Sevilla',
         description: 'The one where we discovered the blue dot on the map',
-        image: 'assets/Sevilla-3.jpg',
+        image: 'assets/Sevilla-3.JPG',
         link: 'components/destinations/Sevilla/Sevilla.html'
 
 
@@ -27,14 +27,14 @@ const adventureData = [
         id: 4,
         title: 'Tarifa & Tangier',
         description: 'The one where we learned the meaning of barter, then hop on camel',
-        image: 'assets/Tarifa & Tangier-4.jpg',
+        image: 'assets/Tarifa & Tangier-4.JPG',
         link: 'components/destinations/Tarifa-Tangier/Tarifa-Tangier.html'
     },
     {
         id: 5,
         title: 'Granada',
         description: 'The one where the Sultan got kicked out of Spain',
-        image: 'assets/Granada-5.jpg',
+        image: 'assets/Granada-5.JPG',
         link: 'components/destinations/Granada/Granada.html'
 
     },
@@ -42,7 +42,7 @@ const adventureData = [
         id: 6,
         title: 'Barcelona',
         description: 'Antonio Guadi. Need I say more',
-        image: 'assets/Barcelona-6.jpg',
+        image: 'assets/Barcelona-6.JPG',
         link: 'components/destinations/Barcelona/Barcelona.html'
 
     },
@@ -50,7 +50,7 @@ const adventureData = [
         id: 7,
         title: 'Venice',
         description: 'Hello Pasta!',
-        image: 'assets/Venice-7.jpg',
+        image: 'assets/Venice-7.JPG',
         link: 'components/destinations/Venice/Venice.html'
 
     },
@@ -58,49 +58,49 @@ const adventureData = [
         id: 8,
         title: 'Milan',
         description: 'Where we swam through the rain',
-        image: 'assets/Milan-8.jpg',
+        image: 'assets/Milan-8.JPG',
         link: 'components/destinations/milan/milan.html',
     },
     {
         id: 9,
         title: 'Cinque Terre',
         description: 'Pesto please',
-        image: 'assets/Cinque Terre-9.jpg',
+        image: 'assets/Cinque Terre-9.JPG',
         link: 'components/destinations/Cinque-Terre/Cinque-Terre.html',
     },
     {
         id: 10,
         title: 'Pisa & Lucca',
         description: 'How do you get to Pisa',
-        image: 'assets/Pisa & Lucca-10.jpg',
+        image: 'assets/Pisa & Lucca-10.JPG',
         link: 'components/destinations/Pisa-Lucca/Pisa-Lucca.html',
     },
     {
         id: 11,
         title: 'Florence & Siena',
         description: 'climb the dome',
-        image: 'assets/Florence & Siena-11.jpg',
+        image: 'assets/Florence & Siena-11.JPG',
         link: 'components/destinations/Florence-Siena/Florence-Siena.html',
     },
     {
         id: 12,
         title: 'Rome',
         description: 'Colesum',
-        image: 'assets/Rome-12.jpg',
+        image: 'assets/Rome-12.JPG',
         link: 'components/destinations/Rome/Rome.html',
     },
     {
         id: 13,
         title: 'Pompeii',
         description: '',
-        image: 'assets/Pompeii-13.jpg',
+        image: 'assets/Pompeii-13.JPG',
         link: 'components/destinations/Pompeii/Pompeii.html',
     },
     {
         id: 14,
         title: 'Sorrento & Amalfi Coast',
         description: 'Colesum',
-        image: 'assets/Sorrento & Amalfi Coast-14.jpg',
+        image: 'assets/Sorrento & Amalfi Coast-14.JPG',
         link: 'components/destinations/Sorrento-Amalfi/Sorrento-Amalfi.html',
     },
 
@@ -108,35 +108,35 @@ const adventureData = [
         id: 15,
         title: 'Naples',
         description: '',
-        image: 'assets/Naples-15.jpg',
+        image: 'assets/Naples-15.JPG',
         link: 'components/destinations/Naples/Naples.html',
     },
     {
         id: 16,
         title: 'Albania',
         description: '',
-        image: 'assets/Albania-16.jpg',
+        image: 'assets/Albania-16.JPG',
         link: 'components/destinations/Albania/Albania.html',
     },      
     {
         id: 17,
         title: 'Corfu',
         description: '',
-        image: 'assets/Corfu-17.jpg',
+        image: 'assets/Corfu-17.JPG',
         link: 'components/destinations/Corfu/Corfu.html',
     }, 
     {
         id: 18,
         title: 'Hydra',
         description: '',
-        image: 'assets/Hydra-18.jpg',
+        image: 'assets/Hydra-18.JPG',
         link: 'components/destinations/Hydra/Hydra.html',
     }, 
     {
         id: 19,
         title: 'Athens',
         description: '',
-        image: 'assets/Athens-19.jpg',
+        image: 'assets/Athens-19.JPG',
         link: 'components/destinations/Athens/Athens.html',
     }, 
     {
@@ -150,7 +150,7 @@ const adventureData = [
         id: 21,
         title: 'D-Day beaches',
         description: '',
-        image: 'assets/D-Day beaches-21.jpg',
+        image: 'assets/D-Day beaches-21.JPG',
         link: 'components/destinations/D-Day/D-Day.html',
     },
     {
@@ -164,7 +164,7 @@ const adventureData = [
         id: 23,
         title: 'Dublin',
         description: '',
-        image: 'assets/Dublin-23.jpg',
+        image: 'assets/Dublin-23.JPG',
         link: 'components/destinations/Dublin/Dublin.html',
     },
 ];
@@ -251,4 +251,3 @@ function openDialog(title) {
 }
 
 populateAdventures();
-setActiveLink();
