@@ -143,7 +143,7 @@ const adventureData = [
         id: 20,
         title: 'Paris',
         description: '',
-        image: 'assets/Paris-20.jpg',
+        image: 'assets/Paris-20.JPG',
         link: 'components/destinations/Paris/Paris.html',
     }, 
     {
