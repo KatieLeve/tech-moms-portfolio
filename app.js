@@ -43,7 +43,7 @@ const adventureData = [
         title: 'Barcelona',
         description: 'Antonio Guadi. Need I say more',
         image: 'assets/Barcelona-6.jpg',
-        link: 'components/destinations/Granada/Granada.html'
+        link: 'components/destinations/Barcelona/Barcelona.html'
 
     },
     {
@@ -205,6 +205,8 @@ function createAdventureHTMLElements(adventure) {
         descriptionElement,
     };
 }
+
+
 
 function appendAdventureChildrenElements({ adventureCard, adventureContent, imgElement, titleElement, descriptionElement }) {
 

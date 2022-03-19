@@ -22,7 +22,7 @@ margin: 0;
     font-family: 'La Belle Aurore', cursive;
     padding:5px;
 }
-.Links{
+.Links {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,12 +32,69 @@ margin: 0;
     height: 35px;
     border-top: 1px solid #65897C;
     border-bottom: 1px solid #65897C;
-    
+    overflow:hidden;  
+}
+/* dropdown info to dropdown:hover */
+.Links a {
+    float: left;
+    font-size: 30px;
+    color: #65897C;
+    text-align: center;
+    text-decoration:none;
+    margin: 0 100px;
 }
 .nav-link {
     text-decoration:none;
     color:#65897C;   
     margin: 0 100px; 
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color:#65897C;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.Links a:hover, .dropdown:hover .dropbtn {
+    background-color: #ec9378;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(197, 188, 188);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin: 0;
+}
+
+.dropdown-content a {
+    float: left;
+    width: 20%;
+    color: #65897C;
+padding: 2px 10px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size: 15px;
+margin: 0 38px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .main-section {
@@ -97,6 +154,7 @@ justify-content: center;
     img {
         border-radius: 15px 15px 0 0;
         width: 250px;
+        height: 200px;
     }
 
 .adventure-content {
@@ -124,4 +182,23 @@ justify-content: center;
 
 a {
     text-decoration: none;
+}
+
+.construction {
+    width: 700px;
+    height: 250px;
+}
+
+.construction-img {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'La Belle Aurore', cursive;
+padding: 0;
+margin-top: 10px;
+margin-bottom: 0px;
+
 }
