@@ -16,3 +16,42 @@ a {
 h4 {
     font-size: 1.5em;
 }
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:30px;
+    margin: 40px;
+    background-color: #ebb4a3;
+    font-family: 'La Belle Aurore', cursive;
+    margin: 0;
+}
+
+.left-column {
+    display: flex;
+    flex: row;
+    justify-content: flex-start;
+    font-size: 50px;
+    padding-right: 150px;
+}
+
+.right-column {
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+    font-size: 50px;
+    padding-left: 400px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #65897C;
+}
+
+.footer-styles {
+    font-size: 50px;
+    align-items: center;
+    padding-top: 20px;
+}
