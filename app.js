@@ -123,7 +123,7 @@ const adventureData = [
     {
         id: 20,
         title: 'Paris',
-        image: '../assets/Paris-20.JPG',
+        image: '../assets/Paris-20.jpg',
         link: 'destinations/Paris/Paris.html',
     }, 
     {
