@@ -3,6 +3,7 @@ body {
 }
 
 .header-container {
+    height: 145px;
 font-family: 'Helvetica Neue', sans-serif;
 background-color: #ebb4a3;
 color: #65897C;
@@ -14,6 +15,7 @@ padding: 10px 0 20px 0;
 position: sticky;
 position: -webkit-sticky;
 margin: 0;
+top: 0;
 }
 .my-name {
     display: flex;
@@ -65,7 +67,7 @@ margin: 0;
 }
 
 .Links a:hover, .dropdown:hover, .dropbtn, .footer-styles:hover {
-    background-color: #ec9378;
+    background-color: #eecfcf;
     border-radius: 5px;
 }
 
@@ -101,7 +103,7 @@ margin: 0 38px;
 
 .main-section {
     background-image: url(assets/british-library-AxT4iYcoI2M-unsplash\ cropped.jpg);
-    height: 500px;
+    height: 310px;
     background-size:cover;
     background-attachment: fixed;
     background-position:center;
@@ -113,15 +115,20 @@ margin: 0 38px;
     color:#65897C;
 display:flex;
 justify-content: center;
-height:15em;
+align-items:flex-start;
+height: 13em;
 font-size: 25px;
 
 }
 h1 {
     font-size: 7em;
     text-shadow:5px 5px 10px black;
+    display: flex;
+    margin:42px 42px 0 42px;
+    padding:10px;
 text-align: center; 
-font-family: 'Homemade Apple', cursive;}
+font-family: 'Homemade Apple', cursive;
+}
 .bottom-heading {
     width: 450px;
     padding:10px 200px;
@@ -131,8 +138,14 @@ font-family: 'Homemade Apple', cursive;}
 h2 {
    text-align: center;
     font-size: 1.5em;
+    margin: 0;
     }
 
+    h5 {
+        text-align:end;
+    font-size: 1em;
+    margin: 0; 
+    }
 .feature-section {
     height: 1000px;
     background-color: #ebb4a3;
@@ -147,7 +160,7 @@ justify-content: center;
 .adventure-card {
     width: 250px;
     height: 259px;
-    background-color: #fff;
+    background-color: #F2DCD1;
     box-shadow: 0px 4px 8px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.2);
     margin: 20px;
     border-radius: 15px;
@@ -202,5 +215,39 @@ h3 {
 padding: 0;
 margin-top: 10px;
 margin-bottom: 0px;
+color:#524b44;
 
+}
+
+.footer-section {
+    font-family: 'Helvetica Neue', sans-serif;
+background-color: #ebb4a3;
+height: 250px;
+border-top: 10px solid white;
+color: #65897C;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+}
+
+.columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+}
+
+.colum-title {
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.column-content {
+    letter-spacing: 2px;
 }

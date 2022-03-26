@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeveNotes</title>
-    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=La+Belle+Aurore&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../style.css">
- 
+  <meta charset="utf-8" />
+  <title>LeveNotes</title>
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=La+Belle+Aurore&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="destinations/destinations.css">
 </head>
+
 <body>
-      <!-- HEADER -->
+
+  <!-- HEADER -->
   <header class="header-container">
     <div class="my-name">Katie E. Leverich</div>
     <!-- nav-bar -->
     <nav class="Links">
       <a class="nav-link" href="../index.html">Home</a>
       <div class="dropdown">
-        <button class="dropbtn">ThroughMyEyes
+        <button class="dropbtn" onclick="document.location='throughmyeyes.html'">ThroughMyEyes
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -52,18 +56,22 @@
         </div>
       </div>
       <a class="nav-link" href="#">Planning</a>
-      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="#">About</a>
     </nav>
   </header>
-
-  <!-- Feature Section -->
-  <section class="feature-section">
-    <div class="adventure-page" id="adventure-page"></div>
-  </section>
-  <!-- Footer -->
-  <footer>
-  </footer>
-  <script src="../app.js"></script>
+  <div class=about>
+    <p class="about-summary">
+      Hi! I'm Katie. I love to explore new cities and towns and get lost in different cultures. 
+      <br>
+      <br>
+      Once upon a summer,
+      Trent (my husband) and I sold most of our belongings and took off to explore Europe with just
+      our backpacks and day packs. "ThroughMyEyes" are the journal
+      entries from that journey.
+    </p>
+    <img class="us" src="../assets/us.jpg" alt="picture of us">
+  </div>
 
 </body>
+
 </html>

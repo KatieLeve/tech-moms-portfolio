@@ -6,6 +6,7 @@ margin: 20px;
 padding: 20px;
 border: solid;
 border-radius: 20px;
+color: #65897C;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -15,6 +16,11 @@ a {
 }
 h4 {
     font-size: 1.5em;
+    color: #524B44;
+}
+
+p {
+    color: #524B44;
 }
 
 .arrows {
@@ -54,4 +60,26 @@ h4 {
     font-size: 50px;
     align-items: center;
     padding-top: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+font-size: 20px;
+margin: 20px;
+padding: 20px;
+border: solid;
+border-radius: 20px;
+color: #65897C;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.us {
+    border-radius: 10px;
+    height: 300px;
+    width: 350px;
+}
+
+.about-summary {
+    font-size: 30px;
+
 }
